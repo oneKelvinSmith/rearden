@@ -3,7 +3,7 @@ RSpec.describe Rearden do
     expect(Rearden::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'is somewhat wired up to the pusher API' do
+    expect(Rearden.push).not_to raise_error
   end
 end

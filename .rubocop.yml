@@ -23,5 +23,11 @@ Style/UnneededPercentQ:
   Exclude:
     - 'rearden.gemspec'
 
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'lib/**/*'
+
 Metrics/LineLength:
   Max: 100
