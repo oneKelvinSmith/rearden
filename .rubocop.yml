@@ -1,0 +1,27 @@
+Layout/EmptyLines:
+  Exclude:
+    - 'rearden.gemspec'
+
+Layout/LeadingBlankLines:
+  Exclude:
+    - 'rearden.gemspec'
+
+Style/ExpandPathArguments:
+  Exclude:
+    - 'rearden.gemspec'
+
+Style/PercentLiteralDelimiters:
+  Exclude:
+    - 'rearden.gemspec'
+
+Style/StringLiterals:
+  Exclude:
+    - 'bin/console'
+    - 'rearden.gemspec'
+
+Style/UnneededPercentQ:
+  Exclude:
+    - 'rearden.gemspec'
+
+Metrics/LineLength:
+  Max: 100
